@@ -42,6 +42,7 @@ body {
     gap: 50px;
        
 }
+
 .left {
     width: 460px;
     
@@ -84,7 +85,6 @@ body {
 
 }
     
-
 .container {
     display: flex;
     height: 400px;
@@ -94,8 +94,6 @@ body {
     
 }
     
-
-
 .title-two {
     font-size: 36px;
     font-weight: bolder;
@@ -110,18 +108,37 @@ body {
     height: 160px;
     width: 160px;
     border-radius: 14px;
-    
-    
+   
 }
     
-
-
-
 .info {
     font-weight: 18px;
-    color: #e5e7eb;
+    color: #9a9b9c;
     max-width: 160px;
     text-align: center;
-    
-    
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 400px;
+    padding-left: 260px;
+    padding-right: 260px;
+
+}
+
+.thor {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.sec-quote {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
