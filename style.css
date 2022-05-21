@@ -142,3 +142,47 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.end {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.card1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
